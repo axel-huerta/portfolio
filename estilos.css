@@ -8,6 +8,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    margin: 0;
+    padding: 0;
     background-color: rgba(10, 7, 7, 0.74);
 }
 
@@ -130,8 +132,11 @@ button:hover{
     margin: 0;
     background: #0a1014;
     background: linear-gradient(90deg, rgba(27, 3, 15, 0.9));
+    width: 100%;
 }
-
+.contenido{
+    width: 100%;
+}
 .contenido .presentacion{
     padding: 20px;
     margin: auto;
