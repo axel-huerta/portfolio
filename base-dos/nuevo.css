@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #ccc;
+}
+/*navegation*/
+.nav{
+    /*
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    */
+    position: fixed;
+    background-color: rgba(0, 0, 0, .3);
+    height: 65px;
+    position: relative; /*...ojo*/
+}
+.nav_conteiner{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+/*logo.....*/
+img{
+    width: 110px;
+    height: auto;
+}
+
+.nav_menu{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+}
+.nav_menu #home{
+    font-family: popis;
+}
+.nav_menu a{
+    font-family: popis;
+    font-weight: 600;
+    padding: 3px;
+    border-radius: 5%;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+
+.nav_menu a:hover{
+    color: #2196f3;
+}
+
+.nav_label, .nav_input{
+    display: none;
+}
+.active{
+    transform: translate(-600px);
+}
+/*button*/
+button{
+    height: 30px;
+    width: 30px;
+    background: #ccc;
+    border: solid black 1.5px;
+    cursor: pointer;
+}
+button:hover{
+    height: 35px;
+    width: 35px;
+}
+
+
+.back-video{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+/*title..............*/
+.header{
+    border: #000 solid;
+    height: 30vh;
+    display: flex;
+}
+.presenta{
+    border: #2196f3 solid;
+}
+.presenta h2{
+    color: orange;
+    padding: 30px;
+    padding-left: 90px;
+    font-size: 50px;
+}
+.presenta p{
+    background-color: #f08080;
+    font-size: 20px;
+    padding-left: 60px
+}
+.dsg{
+    background-color: #2196f3;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 50px;
+    width: 100px;
+    color: orangered;
+}
+/*responsive.................*/
+@media (max-width: 700px){
+    .nav_label{
+        display: block;
+        cursor: pointer;
+    }
+    .ini{
+        display: none;
+    }
+    .nav_menu{
+        position: fixed;
+        top: 80px;
+        bottom: 0;
+        background: #f08080;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+    }
+    .nav_label:checked + .nav_menu{
+        clip-path: circle(100% at center);
+    }
+    .nav_logo{
+        font-size: 1.3em;
+        font-weight: 900;
+    }
+    
+    .video{
+        top: 0;
+        margin-top: 300px;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    
+    }
+
+

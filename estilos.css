@@ -30,13 +30,6 @@ body{
     position: relative;
     position: fixed;
 }
-
-/*.nav{
-    background: #5d8ff4 linear-gradient(to right, #69f, #124, #333);
-    height: 80px;
-    color: aliceblue;
-}*/
-
 .nav_conteiner{
     display: flex;
     height: 100%;
