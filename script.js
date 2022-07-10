@@ -1,3 +1,4 @@
+/*
 let hamburgesa = document.querySelector(".ham");
 const navegacion = document.querySelector(".nav");
 const enlaces = document.querySelectorAll(".nav a");
@@ -22,3 +23,4 @@ function cerrarMenu(){
         });
     });
 }
+*/

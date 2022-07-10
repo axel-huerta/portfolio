@@ -269,7 +269,7 @@ button:hover{
         flex-wrap: wrap;
     }
     #sobre-mi .foto{
-        width: 22.5rem;
+        width: 15.5rem;
     }
 }
 
@@ -292,7 +292,7 @@ button:hover{
     color: white;
 }
 .contenedor-p{
-    width: 90%;
+    width: 100%; /*90*/
     margin: auto;
     display: flex;
     justify-content: center;
@@ -301,6 +301,7 @@ button:hover{
     padding: 30px;
 }
 .contenedor-p une{
+    background-color: #f38721;
     margin: auto;
 }
 .contenedor-p .une img{
@@ -330,7 +331,7 @@ button:hover{
         flex-direction: column;
     }
     .contenedor-p .une img{
-        width: 300px;
+        width: 50vw; /*300*/
     }
 }
 
