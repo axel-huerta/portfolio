@@ -89,14 +89,15 @@ body{
 /*---------------------------sobre mi---------------------------------*/
 #sobre-mi{
     margin: auto;
-    padding: 100px 15px;
+    padding: 100px 20px;
     width: 100%;
-    color: #0c130cbb;
+    color: #fff;
     display: flex;
 }
 #sobre-mi .foto{
     max-width: 400px;
-    margin-right: 80px;
+    margin-right: 70px;
+    margin-left: 30px;
 }
 #sobre-mi .foto img{
     padding: 20px;
@@ -110,7 +111,7 @@ body{
 #sobre-mi .sobre-mi-dos .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
-    color: rgb(11, 29, 11);
+    color: gold;
     text-decoration: underline;
     text-decoration-color: gold;
     text-decoration-thickness: 5px;
