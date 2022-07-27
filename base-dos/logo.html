@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/bass/css/nuevo.css">
+    <link rel="stylesheet" href="/base-dos/nuevo.css">
 </head>
 <body>
     <header>
         <nav class="nav">
             <div class="nav_conteiner">
-                <img src="/imagenes/logo_pescar.png" alt="" class="pescado">
+                <img src="" alt="" class="pescado">
                 <a href="#" class="nav_logo"></a>
                 <label for="menu" class="nav_label">
                     <button class="menu">&equiv;</button>
@@ -24,8 +24,32 @@
                 </div>
             </div>
         </nav>
-        <div class="video">
-            <video src="/imagenes/video-dos.mp4" autoplay loop muted plays-inline class="back-video"></video>
+    </header>
+    <!-- aplications-->
+    <div class="container">
+        <div id="App">
+            <div class="App-dos">
+                <div class="App-tres">
+                    <div class="App-titulo">
+                        <h4>Add products</h4>
+                    </div>
+                    <form action="" id="product-form">
+                        <div class="form-grup">
+                            <input type="text" id="name" placeholder="Products name">
+                        </div>
+                        <div class="form-grup">
+                            <input type="number" step="0.01" name="" id="price" placeholder="Number">
+                        </div>
+                        <div class="form-grup">
+                            <input type="number" min="2000" max="2025" value="2022" name="" id="year" placeholder="Number">
+                        </div>
+                        <input type="submit" value="save" class="btn">
+                    </form>
+                </div>
+            </div>
+            <div id="product-list"></div>
         </div>
+    </div>
+    <script src="/base-dos/script.js"></script>
 </body>
 </html>

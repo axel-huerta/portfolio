@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: #ccc;
+    background: #000;
 }
 /*navegation*/
 .nav{
@@ -72,44 +73,6 @@ button:hover{
     height: 35px;
     width: 35px;
 }
-
-
-.back-video{
-    position: absolute;
-    width: 100%;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
-/*title..............*/
-.header{
-    border: #000 solid;
-    height: 30vh;
-    display: flex;
-}
-.presenta{
-    border: #2196f3 solid;
-}
-.presenta h2{
-    color: orange;
-    padding: 30px;
-    padding-left: 90px;
-    font-size: 50px;
-}
-.presenta p{
-    background-color: #f08080;
-    font-size: 20px;
-    padding-left: 60px
-}
-.dsg{
-    background-color: #2196f3;
-    border-radius: 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    margin: 50px;
-    width: 100px;
-    color: orangered;
-}
 /*responsive.................*/
 @media (max-width: 700px){
     .nav_label{
@@ -140,13 +103,20 @@ button:hover{
         font-weight: 900;
     }
     
-    .video{
-        top: 0;
-        margin-top: 300px;
-        position: absolute;
-        width: 100%;
-        z-index: -1;
-    
     }
 
+/*:::::::::::::::::::::::::::::::::::::::*/
 
+.App-tres{
+    background-color: #2196f3;
+    width: 300px;
+    margin: auto;
+    padding-left: 67px;
+}
+#product-list .card{
+    margin-top: 20px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #2195f37c;
+}
