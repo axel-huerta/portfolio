@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -107,16 +106,35 @@ button:hover{
 
 /*:::::::::::::::::::::::::::::::::::::::*/
 
+
 .App-tres{
+    text-align: center;
     background-color: #2196f3;
-    width: 300px;
+    width: 50vw;
     margin: auto;
-    padding-left: 67px;
+    padding: 10px;
+}
+.App-titulo{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#product-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 #product-list .card{
-    margin-top: 20px;
-    height: 40px;
-    padding-top: 10px;
+    margin: 20px;
+    color: #2196f3;
     text-align: center;
-    background-color: #2195f37c;
+}
+.alert{
+    text-align: center;
+    background-color: #f3cd21;
+    color: red;
+    border: #f3cd21 solid 2px;
+    border-radius: 25px;
+    width: 35vw;
+    margin: 20px;
+    position: absolute;
 }

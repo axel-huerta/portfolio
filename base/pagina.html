@@ -8,18 +8,29 @@
     <link rel="stylesheet" href="/base/style.css">
 </head>
 <body>
-    <header>
-        <h1>hello mundo</h1>
-        <nav>
-            <ul>
-                <li>hellooo</li>
-                <li>hellooo</li>
-                <li>hellooo</li>
-                <li>hellooo</li>
-                <li>hellooo</li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <h2>Xk-budget</h2>
+    </nav>
+    <div class="main">
+        <form id="vacationsCalc">
+            <input type="text" id="destiny">
+            <input type="number" id="budget">
+            <input type="number" 
+            placeholder="Acomodations"
+            required
+            id="acomodations">
+            <input type="number" placeholder="transport" 
+            id="transporte" required>
+            <input type="number" placeholder="food" required id="food">
+            <input type="submit" value="CALCULATE" 
+            class="btn">
+        </form>
+    </div>
+    <div class="container">
+        <div class="data">
+            <div class="result" id="result"></div>
+        </div>
+    </div>
     <script src="/base/app.js"></script>
 </body>
 </html>

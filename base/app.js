@@ -1,50 +1,47 @@
-//var  weather = prompt("how is the weather??");
+let validationCalc = document.getElementById("vacationsCalc")
+validationCalc.addEventListener("submit", calcExpenses)
 
-//if (weather === "rain"){
-//    console.log("grab your umbrella");
-//} else {
-//    console.log("wear you sunglasses");
-//}
+function calcExpenses(e){
 
-// Chapter 03-----
+    e.preventDefault()
 
-//funtion
+    let destiny = document.getElementById("destiny").value,
+     budget = document.getElementById("budget").value,
+     acomodations = document.getElementById("acomodations").value,
+     transport = document.getElementById("transporte").value,
+     food = document.getElementById("food").value;
 
+    let expanses = parseInt(acomodations) + parseInt(transport) + parseInt(food);
+    let balance = budget - expanses;
 
-//ES6
-function sayMyName(){
-    console.log("name..")
-    console.log("name..")
-    console.log("name..")
-    console.log("name..")
+    UT(destiny, budget, balance);
+
 }
 
-//arrow funtions
+function UT(destiny, budget, balance){
+    let result = document.getElementById("result");
+    let dataPrint = document.createElement("div");
 
-let valor=prompt("ingrese aperation")
+    dataPrint.innerHTML = `
+    <div class="conteiner-data">
+        <div>
+            <h6>${destiny}</h6>
+        </div>
+        <div>
+            <h6>${budget}</h6>
+        </div>
+        <div>
+            <h6>${balance}</h6>
+        </div>
+    </div>
+    `
+    result.appendChild(dataPrint)
 
-const suma = (a, b)=>{
-    return a + b
+    reset()
 }
-const resta = (a, b)=>{
-    return a - b
-}
-const multi = (a, b)=>{
-    return a * b
-}
-const divi = (a, b)=>{
-    return a % b
-}
 
+//reseteamos el formularios
 
-
-switch (valor){
-    case "suma":
-        console.log(suma(10, 20))
-        break
-    case "resta":
-        console.log(resta())
-        break
+function reset(){
+    document.getElementById("vacationsCalc").reset()
 }
-    
-

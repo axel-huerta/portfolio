@@ -50,6 +50,7 @@ class UI{
     }
 }
 
+
 //capturar eventos DOM
 
 document.getElementById("product-form")
