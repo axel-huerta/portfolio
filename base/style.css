@@ -16,8 +16,24 @@ header{
 }
 nav{
     height: 6vh;
-    background-color: brown;
+    background-color: rgb(114, 27, 27);
     text-align: center;
+}
+.nn{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 4px;
+    float: left;
+    margin: 3px;
+    padding: 7px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.nn:hover{
+    color: brown;
+    cursor: pointer;
+    background-color: aquamarine;
 }
 nav h2{
     padding: 10px;
@@ -43,10 +59,11 @@ nav h2{
     border: none;
 }
 .btn{
-    border: 2px solid rgb(97, 9, 9);
+    border: 2px solid rgb(14, 0, 0);
     border-radius: 2rem;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.5);
     color: white;
+    font-weight: bold;
 }
 
 #result{

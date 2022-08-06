@@ -201,7 +201,7 @@ body{
 }
 .contenedor-p .une img{
     width: 90%;
-    height: 333px;
+    height: 40vh;
     border: #00dbde solid 3px;
     border-radius: 25px;
 }
@@ -227,8 +227,12 @@ body{
         flex-direction: column;
     }
     .contenedor-p .une{
+        font-size: 17px;
         width: 95%;
         height: 70vh;
+    }
+    .contenedor-p .une img{
+        height: 30vh;
     }
 }
 

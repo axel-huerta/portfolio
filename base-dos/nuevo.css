@@ -6,7 +6,15 @@
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: #000;
+    background: rgba(0, 0, 0, 0.911);
+}
+.nj{
+    background-color: brown;
+    padding: 7px;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
 }
 /*navegation*/
 .nav{
@@ -101,20 +109,27 @@ button:hover{
         font-size: 1.3em;
         font-weight: 900;
     }
+    #name, #price{
+        width: 70%;
+    }
     
     }
 
 /*:::::::::::::::::::::::::::::::::::::::*/
-
+.container{
+    margin-top: 20px;
+}
 
 .App-tres{
     text-align: center;
-    background-color: #2196f3;
-    width: 50vw;
+    background-color: #084374;
+    border-radius: 5px;
+    width: 40vw;
     margin: auto;
     padding: 10px;
 }
 .App-titulo{
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -123,9 +138,14 @@ button:hover{
     flex-direction: column;
     gap: 10px;
 }
+#product-list{
+    margin-top: 10px;
+}
 #product-list .card{
-    margin: 20px;
-    color: #2196f3;
+    width: 30%;
+    background-color: #811a1a;
+    margin: auto;
+    color: white;
     text-align: center;
 }
 .alert{
@@ -137,4 +157,17 @@ button:hover{
     width: 35vw;
     margin: 20px;
     position: absolute;
+}
+/*::::::::::::::::::::*/
+.btn{
+    background-color: brown;
+    margin: auto;
+    width: 90px;
+    border-radius: 25px;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    border: blueviolet solid 2px;
+    border: solid 2px;
 }
