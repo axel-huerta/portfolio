@@ -25,6 +25,9 @@ body{
     background-color: #0a1014;
     background: linear-gradient(90deg, rgba(27, 3, 15, 0.9));
     width: 100%;
+    background-image: url("/img/olq-tres.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .contenido{
     width: 100%;
@@ -289,7 +292,7 @@ body{
     }
     .conteiner-card-p{
         background-color: #0a1014;
-        height: 340vh;
+        height: 415vh;
     }
 }
 /*................................................*/
