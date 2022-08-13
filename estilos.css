@@ -287,6 +287,10 @@ body{
         width: 100%;
         height: 100%;
     }
+    .conteiner-card-p{
+        background-color: #0a1014;
+        height: 340vh;
+    }
 }
 /*................................................*/
 #footer{
