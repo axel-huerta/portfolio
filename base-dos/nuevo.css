@@ -122,31 +122,47 @@ button:hover{
 
 .App-tres{
     text-align: center;
-    background-color: #084374;
+    background-color: #365976;
     border-radius: 5px;
-    width: 40vw;
+    width: 50vw;
+    height: 40vh;
     margin: auto;
     padding: 10px;
 }
 .App-titulo{
+    margin-top: 3px;
     color: white;
+    font-size: 27px;
     text-transform: uppercase;
     font-weight: bold;
 }
+.form-grup input{
+    background-color: #ccc;
+    border: none;
+    padding: 10px;
+    width: 50%;
+}
+.App-tres .form-grup{
+    margin-top: 10px;
+} 
 #product-form{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 #product-list{
-    margin-top: 10px;
+    text-align: center;
 }
 #product-list .card{
-    width: 30%;
+    width: 50%;
     background-color: #811a1a;
-    margin: auto;
     color: white;
     text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
 }
 .alert{
     text-align: center;
@@ -163,11 +179,22 @@ button:hover{
     background-color: brown;
     margin: auto;
     width: 90px;
-    border-radius: 25px;
+    border-radius: 5px;
     color: white;
+    font-size: 20px;
+    padding: 10px;
 }
 .btn:hover{
     cursor: pointer;
-    border: blueviolet solid 2px;
-    border: solid 2px;
+    background-color: #811a1a;
+}
+.btnn{
+    padding: 3px;
+    margin: 50px;
+    margin-top: 890px;
+    color: orange;
+    text-decoration: none;
+}
+.card .card-body strong{
+    color: #365976;
 }

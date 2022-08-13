@@ -1,0 +1,40 @@
+header{
+    height: 60vh;
+    text-align: center;
+}
+header h1{
+    padding-top: 80px;
+}
+#list-example{
+    margin: 25px;
+}
+.scrollspy-example{
+    margin: 15px;
+}
+.carousel-item img{
+    margin: auto;
+    width: 80vw;
+    height: 50vh;
+    border: 2px solid aqua;
+    border-radius: 25px;
+}
+.navbar{
+  width: 100%;
+  margin-top: 0;
+  position: fixed;
+  z-index: 1000;
+}
+.form-uno{
+  display: flex;
+  justify-content: center;
+}
+#form-dos{
+  width: 50vw;
+  padding: 50px;
+}
+
+/*foter*/
+
+footer .foter{
+    text-align: center;
+}
